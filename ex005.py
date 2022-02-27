@@ -8,5 +8,5 @@
 # print(n.isalpha())
 
 ## O Código verifica se o código está com letras maiusculas
-n = input('Digite algo: ')
+n = input("Digite algo: ")
 print(n.isupper())
