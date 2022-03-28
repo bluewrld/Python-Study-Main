@@ -1,0 +1,15 @@
+#Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+
+número = int(input('\033[0;32mDigite um número para ver sua tabuada:\033[m '))
+print(f'\u001b[37m-=-\u001b[m' * 20)
+print(f'\033[1;35m{número} x {1} = {número*1}\033[m')
+print(f'\033[1;35m{número} x {2} = {número*2}\033[m')
+print(f'\033[1;35m{número} x {3} = {número*3}\033[m')
+print(f'\033[1;35m{número} x {4} = {número*4}\033[m')
+print(f'\033[1;35m{número} x {5} = {número*5}\033[m')
+print(f'\033[1;35m{número} x {6} = {número*6}\033[m')
+print(f'\033[1;35m{número} x {7} = {número*7}\033[m')
+print(f'\033[1;35m{número} x {8} = {número*8}\033[m')
+print(f'\033[1;35m{número} x {9} = {número*9}\033[m')
+print(f'\033[1;35m{número} x {10} = {número*10}\033[m')
+print(f'\u001b[37m-=-\u001b[m' * 20)
